@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+	<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+	<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+	<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8" />
+
+  		<!-- Set the viewport width to device width for mobile -->
+  		<meta name="viewport" content="width=device-width" />
+	    <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link href="css/signup.css" rel='stylesheet' type='text/css' />
+	
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+		 <!--[if lt IE 9]>
+	    <link rel="stylesheet" href="stylesheets/ie.css">
+	  <![endif]-->
+
+	  <script src="javascripts/modernizr.foundation.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+            $("#form").fadeIn(1000);
+            $("#midbox").fadeIn(2000);
+            $("#rightimage").fadeIn(3000);
+    });
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#menuclick").click(function(){
+            $("#nav").toggle();
+        });
+    });
+    </script>
+
+	  <!-- IE Fix for HTML5 Tags -->
+	  <!--[if lt IE 9]>
+	    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	  <![endif]-->
+
+	<title>Sign Up</title>
+	</head>	
+
+	<body>
+		<div id="header"> <!-- Llama Power HEADER !-->
+      <p1>Llama Power</p1>
+      <p2>Designed by therealharsh</p2>
+      <div id="menuclick"><p3><i class="fa fa-bars"></i></p3></div>
+    </div> <!-- header close -->
+
+
+		<div id="wrappersignup"> <!-- wrapper open -->
+        <div id="formgrid"> <!-- grid for signup open-->
+          <div id="leftboxs">
+            <div id="form"> <!-- form open-->
+                <form>
+                  <h1><center>Join the Llama Community for free!</center></h1>
+                    <label>Llama Name:</label><br>
+                    <input class="textbox" type="text" placeholder="Eg: Joe Llama" required> <br><br>
+                    <label>Llama Address:</label><br>
+                    <input class="textbox" type="text" placeholder="Eg: Rocky Mountains or Peru or Argentina" required> <br><br>
+                    <label>Ellamail:</label><br>
+                    <input class="textbox" type="text" placeholder="Eg: joethellama@lmail.com" required> <br><br>
+                    <label>Username:</label><br>
+                    <input class="textbox" type="text" placeholder="Eg: funllama123" required> <br><br>
+                    <label>Password:</label><br>
+                    <input class="textbox" type="password" placeholder="Eg: iwishiwasahuman" required> <br><br>
+                    <center><button class="success" value="Sign Up">Sign Up</button></center>
+                </form>
+            </div> <!-- form close -->
+          </div>
+          <div id="middleboxs">
+              <div id="midbox">
+                  <ul class="fa-ul">
+                    <li class="fa fa-check"> Meet new llamas from all over the world </li>
+                    <li class="fa fa-check"> Get all the latest llama news </li>
+                    <li class="fa fa-check"> Receive the latest deals from Llamaland </li>
+                    <li class="fa fa-check"> Collect llama points to buy the best shrubs </li>
+                    <li class="fa fa-check"> Get exclusive access to the Llama Talk app</li>
+                  </ul>
+                  <img id="comp" src="image/computer.png" width="80%" height="40%">
+              </div>
+          </div>
+          <div id="rightboxs">
+              <img id="image1" src="image/signup1.png" width="100%" height="48%">
+              <img id="image2" src="image/signup2.png" width="100%" height="48%">
+          </div>
+      </div> <!-- grid for signup close-->
+    </div> <!-- wrapper close -->
+	</body>	
+	
+	<footer> <!-- footer with nav concept-->
+		   <ul id="nav">
+		   		<div id="centernav">
+				  <li><a href="index.html">Home</a></li>
+				  <li><a class="active" href="signup.html">Sign Up</a></li>
+				  <li><a href="http://www.ratsvalidator.com/llama-app/index.php">The App</a></li>
+				  <li><a href="faq.php">FAQ</a></li>
+				  <li><a href="contact.php">Contact</a></li>
+				</div>  
+			</ul>
+	</footer> <!-- end footer with nav ->
+
+</html>
