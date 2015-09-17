@@ -2,7 +2,16 @@ html, body{
 	height:100%;
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 1270px){
+	#wrappermeet{
+		position: absolute;
+		overflow: hidden;
+		margin: 0 auto;
+		width: 100%;
+		height: 120%;
+		background-color: transparent;
+	}
+
 	#formgrid{
 		padding-top: 2%;
 		margin: 0 auto;
@@ -18,17 +27,23 @@ html, body{
 	}
 
 	#middleboxss{
+		position: relative;
+		padding: 2%;
 		float: left; 
-		width: 35%; 
-		height: 100%;
-		
+		width: 65%; 
+		height: 513px;
+		background-color: rgba(85, 85, 85, 0.7)
 	}
 
-	#rightboxss{
-		float: left; 
-		width: 35%; 
-		height: 100%;
+	#middleboxss p2{
+		font-family: oswald;
+		color: white;
+	}
 
+	#middleboxss p3{
+		font-size: 150%;
+		font-family: oswald;
+		color: white;
 	}
 
 	#desc ul{
@@ -47,16 +62,342 @@ html, body{
 	}
 }
 
-@media screen and (max-width: 499px){
+@media screen and (min-width: 1100px) and (max-width: 1269px){
 	#wrappermeet{
-	position: absolute;
-	overflow: hidden;
-	margin: 0 auto;
-	width: 100%;
-	height: 200%;
-	background-color: transparent;
+		position: absolute;
+		overflow: hidden;
+		margin: 0 auto;
+		width: 100%;
+		height: 120%;
+		background-color: transparent;
+	}
+
+	#formgrid{
+		padding-top: 2%;
+		margin: 0 auto;
+		height: 100%; 
+		width: 80%; 
+		
+	}
+
+	#leftboxss{
+		float: left; 
+		width: 30%; 
+		height: 90%;
+	}
+
+	#middleboxss{
+		position: relative;
+		padding: 2%;
+		float: left; 
+		width: 65%; 
+		height: 475px;
+		background-color: rgba(85, 85, 85, 0.7)
+	}
+
+	#middleboxss p2{
+		font-size: 90%;
+		font-family: oswald;
+		color: white;
+	}
+
+	#middleboxss p3{
+		font-size: 100%;
+		font-family: oswald;
+		color: white;
+	}
+
+	#desc ul{
+		padding-left: 0;
+		width: 95.5%;
+		list-style: none;
+	}
+
+	#desc li{
+		font-family: oswald;
+		width: 100%;
+		padding: 2%;
+		border: 1px solid #555;
+		background-color: rgba(85, 85, 85, 0.7);
+		color: rgba(255, 255, 255, 0.7);
+	}
 }
-	
+
+@media screen and (min-width: 985px) and (max-width: 1099px){
+	#wrappermeet{
+		position: absolute;
+		overflow: hidden;
+		margin: 0 auto;
+		width: 100%;
+		height: 120%;
+		background-color: transparent;
+	}
+
+	#formgrid{
+		padding-top: 2%;
+		margin: 0 auto;
+		height: 100%; 
+		width: 80%; 
+		
+	}
+
+	#leftboxss{
+		float: left; 
+		width: 30%; 
+		height: 90%;
+	}
+
+	#middleboxss{
+		position: relative;
+		padding: 2%;
+		float: left; 
+		width: 65%; 
+		height: 440px;
+		background-color: rgba(85, 85, 85, 0.7)
+	}
+
+	#middleboxss p2{
+		font-size: 85%;
+		font-family: oswald;
+		color: white;
+	}
+
+	#middleboxss p3{
+		font-size: 95%;
+		font-family: oswald;
+		color: white;
+	}
+
+	#desc ul{
+		padding-left: 0;
+		width: 95.5%;
+		list-style: none;
+	}
+
+	#desc li{
+		font-family: oswald;
+		width: 100%;
+		padding: 2%;
+		border: 1px solid #555;
+		background-color: rgba(85, 85, 85, 0.7);
+		color: rgba(255, 255, 255, 0.7);
+	}
+}
+
+@media screen and (min-width: 870px) and (max-width: 984px){
+	#wrappermeet{
+		position: absolute;
+		overflow: hidden;
+		margin: 0 auto;
+		width: 100%;
+		height: 120%;
+		background-color: transparent;
+	}
+
+	#formgrid{
+		padding-top: 2%;
+		margin: 0 auto;
+		height: 100%; 
+		width: 80%; 
+		
+	}
+
+	#leftboxss{
+		float: left; 
+		width: 30%; 
+		height: 90%;
+	}
+
+	#middleboxss{
+		position: relative;
+		padding: 2%;
+		float: left; 
+		width: 65%; 
+		height: 430px;
+		background-color: rgba(85, 85, 85, 0.7)
+	}
+
+	#middleboxss p2{
+		font-size: 80%;
+		font-family: oswald;
+		color: white;
+	}
+
+	#middleboxss p3{
+		font-size: 90%;
+		font-family: oswald;
+		color: white;
+	}
+
+	#desc ul{
+		padding-left: 0;
+		width: 95.5%;
+		list-style: none;
+	}
+
+	#desc li{
+		font-family: oswald;
+		width: 100%;
+		padding: 2%;
+		border: 1px solid #555;
+		background-color: rgba(85, 85, 85, 0.7);
+		color: rgba(255, 255, 255, 0.7);
+	}
+}
+
+@media screen and (min-width: 805px) and (max-width: 869px){
+	#wrappermeet{
+		position: absolute;
+		overflow: hidden;
+		margin: 0 auto;
+		width: 100%;
+		height: 120%;
+		background-color: transparent;
+	}
+
+	#formgrid{
+		padding-top: 2%;
+		margin: 0 auto;
+		height: 100%; 
+		width: 80%; 
+		
+	}
+
+	#leftboxss{
+		float: left; 
+		width: 30%; 
+		height: 90%;
+	}
+
+	#middleboxss{
+		position: relative;
+		padding: 2%;
+		float: left; 
+		width: 65%; 
+		height: 405px;
+		background-color: rgba(85, 85, 85, 0.7)
+	}
+
+	#middleboxss p2{
+		font-size: 75%;
+		font-family: oswald;
+		color: white;
+	}
+
+	#middleboxss p3{
+		font-size: 85%;
+		font-family: oswald;
+		color: white;
+	}
+
+	#desc ul{
+		padding-left: 0;
+		width: 95.5%;
+		list-style: none;
+	}
+
+	#desc li{
+		font-family: oswald;
+		width: 100%;
+		padding: 2%;
+		border: 1px solid #555;
+		background-color: rgba(85, 85, 85, 0.7);
+		color: rgba(255, 255, 255, 0.7);
+	}
+}
+
+@media screen and (min-width: 695px) and (max-width: 804px){
+	#wrappermeet{
+		position: absolute;
+		overflow: hidden;
+		margin: 0 auto;
+		width: 100%;
+		height: 120%;
+		background-color: transparent;
+	}
+
+	#formgrid{
+		padding-top: 2%;
+		margin: 0 auto;
+		height: 100%; 
+		width: 80%; 
+		
+	}
+
+	#leftboxss{
+		float: left; 
+		width: 30%; 
+		height: 90%;
+	}
+
+	#middleboxss{
+		position: relative;
+		padding: 2%;
+		float: left; 
+		width: 65%; 
+		height: 400px;
+		background-color: rgba(85, 85, 85, 0.7)
+	}
+
+	#middleboxss p2{
+		font-size: 60%;
+		font-family: oswald;
+		color: white;
+	}
+
+	#middleboxss p3{
+		font-size: 70%;
+		font-family: oswald;
+		color: white;
+	}
+
+	#desc ul{
+		padding-left: 0;
+		width: 95.5%;
+		list-style: none;
+	}
+
+	#desc li{
+		font-family: oswald;
+		width: 100%;
+		padding: 2%;
+		border: 1px solid #555;
+		background-color: rgba(85, 85, 85, 0.7);
+		color: rgba(255, 255, 255, 0.7);
+	}
+}
+
+@media screen and (max-width: 694px){
+	#wrappermeet{
+		position: absolute;
+		overflow: hidden;
+		margin: 0 auto;
+		width: 100%;
+		height: 140%;
+		background-color: transparent;
+	}
+
+	#middleboxss{
+		display:none;
+		position: relative;
+		padding: 2%;
+		float: left; 
+		width: 65%; 
+		height: 58.7%;
+		background-color: rgba(85, 85, 85, 0.7);
+	}
+
+	#middleboxss p2{
+		font-family: oswald;
+		color: white;
+	}
+
+	#middleboxss p3{
+		font-size: 150%;
+		font-family: oswald;
+		color: white;
+	}
+
 	#formgrid{
 		padding-top: 2%;
 		margin: 0 auto;
