@@ -1,6 +1,10 @@
 Llama Project (HTML, CSS, PHP, MySQL, JavaScript, JQuery)
 
-http://www.ratsvalidator.com/llama-project
+Website: http://www.ratsvalidator.com/llama-project
+GitHub page: http://therealharsh.github.io/llama-project
+
+Llama Talk is a project built as a project for a Zinternship focusing on the UX/UI rather than functionality
+The Concept: An online network for Llamas to talk to one another and learn more about each other
 
 UPDATES as of September 18, 2015
 
