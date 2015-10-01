@@ -5,7 +5,7 @@
 
 Llama Talk is a project built as a project for a Zinternship which focuses on UX/UI design rather than functionality<br>
 
-<b>The Concept:</b> An online network for Llamas to talk to one another and learn more about each other<br>
+<b>The Concept:</b> An online network for Llamas to talk to one another and learn more about each other<br><br>
 <u>About:</u> http://www.ratsvalidator.com/llama-app/about.html<br>
 
 <ul><b>UPDATES as of September 18, 2015</b>
